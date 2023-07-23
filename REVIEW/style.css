@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: cursive;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name {
+    font-family: serif;
+}
+section {
+    width: 35%;
+    text-align: center;
+    background: wheat;
+}
+.underline {
+    width: 100px;
+    background-color: blue;
+    height: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+article {
+    margin-top: 50px;
+    padding: 10px;
+}
+.btn1 {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+.success {
+    border-color: blue;
+    color: black;
+}
+
+.success:hover {
+    background-color: blue;
+    color: white;
+}
+.border-0:hover {
+    background: blue;
+    color: white !important;
+}
+.about {
+    height: 100px;
+}

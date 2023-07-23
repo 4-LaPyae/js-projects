@@ -1,0 +1,43 @@
+.container {
+    width: 400px;
+    height: 500px;
+    background: wheat;
+    margin: 50px auto;
+}
+button {
+    width: 200px;
+    margin: 5px;
+}
+.rounded {
+    width: 400px;
+    height: 500px;
+}
+.image1,
+.image2 {
+    display: none;
+}
+.rose,
+.girl {
+    display: block;
+}
+.name {
+    font-family: cursive;
+}
+.card {
+    width: 300px;
+    height: 300px;
+}
+.restart {
+    width: 100px;
+}
+.totalResult {
+    margin-top: 10%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.totalmessage {
+    font-size: 2rem;
+    color: red;
+}
+.green {
+    color: red;
+}

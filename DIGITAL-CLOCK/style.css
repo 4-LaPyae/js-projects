@@ -1,0 +1,36 @@
+            .container {
+                display: flex;
+                justify-content: center;
+            }
+            .hours,
+            .sec,
+            .min,
+            .period {
+                padding: 10px;
+                text-align: center;
+                margin: 0px 10px;
+                border-radius: 5px;
+            }
+            .shours,
+            .ssec,
+            .smin,
+            .speriod {
+                font-size: 30px;
+                font-style: italic;
+                font-family: cursive;
+                background: rgb(6, 246, 246);
+                border-radius: 5px;
+                color: brown;
+            }
+            .hours {
+                background: yellow;
+            }
+            .min {
+                background: red;
+            }
+            .sec {
+                background: blue;
+            }
+            .period {
+                background: gray;
+            }

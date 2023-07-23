@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <head>
+    <title>Title of the Document</title>
+  </head>
+  <body>
+    <form onSubmit={handleSubmit}>
+        <input type="file" onChange={handleFileChange} />
+        <button type="submit">Upload</button>
+      </form>   
+       <script>
+      function readFile(input) {
+        let file = input.files[0]; 
+        let fileReader = new FileReader(); 
+        fileReader.readAsText(file); 
+        fileReader.onload = function() {
+         console.log(fileReader.result)
+        }; 
+        fileReader.onerror = function() {
+          alert(fileReader.error);
+        }; 
+      }
+    </script>
+  </body>
+</html>

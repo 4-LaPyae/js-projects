@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lobster", cursive;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background: pink;
+    align-items: center;
+}
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.link-container ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.link-container ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link-container ul li a:hover {
+    color: orange;
+}
+.shopping-cart {
+    position: relative;
+}
+#s-cart {
+    position: absolute;
+    left: 20px;
+    top: -13px;
+    color: red;
+}
+.menu-icon {
+    cursor: pointer;
+}
+
+.menu-icon,
+.menu-link {
+    display: none;
+}
+
+.link {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.link a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.link:hover {
+    background-color: #ccc;
+    color: orange !important;
+}
+@media only screen and (max-width: 490px) {
+    .link-container {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
+@media only screen and (min-width: 490px) {
+    .menu-link {
+        display: none;
+    }
+}
+.btn1 {
+    border: 1px solid black;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    opacity: 0.6;
+    margin: 5px 0px;
+}
+.warning {
+    background-color: transparent;
+}
+
+.warning:hover {
+    background: #ff9800;
+    color: white;
+}
+.bg {
+    /* background-image: url("https://www.snopes.com/tachyon/2011/05/GettyImages-1053940730-e1574805372683.jpg?resize=865%2C452&crop_strategy=smart");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: pink;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive !important;
+}
+.container {
+    text-align: center;
+}
+.text1 {
+    font-size: 3rem;
+    padding: 5px;
+}
+.text2 {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.c-featured {
+    text-align: center;
+    margin-top: 50px;
+}
+.underline {
+    width: 200px;
+    height: 3px;
+    background: orange;
+    margin: auto;
+}
+
+.btn2 {
+    border: 2px solid orange;
+    padding: 5px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 5px;
+    background: #f1f1f1;
+    color: orange;
+}
+.btn2:hover {
+    background: orange;
+    color: white;
+}
+
+.s-output {
+    margin-top: 50px;
+}
+.card {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+        rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+        rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn3 {
+    padding: 5px;
+    background: orange;
+    color: white;
+    border: 1px solid black;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.btn3:hover {
+    background: white;
+    color: orange;
+}
+.amount p {
+    color: gray;
+}
+.p-btn a {
+    text-decoration: none;
+    color: orange;
+}
+.p-btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 40px 0px;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700");
+
+.footer-distributed {
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px "Open Sans", cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+img {
+    padding: 10px;
+}

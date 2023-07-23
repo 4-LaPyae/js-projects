@@ -1,0 +1,15 @@
+.numb {
+    font-size: 2rem;
+}
+.success {
+    background: green;
+    color: white;
+}
+.wrong {
+    background: red;
+    color: white;
+}
+.blue {
+    background: blue;
+    color: white;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Text Animation</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background: black;
+            }
+            .text {
+                color: white;
+                font-size: 6rem;
+                font-family: cursive;
+                max-height: 100%;
+                line-height: 100vh;
+                text-align: center;
+            }
+            span {
+                opacity: 0;
+                transition: all 1s ease;
+                transform: translateY(50px);
+                display: inline-block;
+            }
+            span.fade {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            span.fade {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 class="text">Welcome To Yangon</h2>
+        <script src="./script.js"></script>
+    </body>
+</html>

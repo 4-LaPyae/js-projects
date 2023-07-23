@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+h2 {
+    margin: 5% auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+.active,
+.box1,
+.box2,
+.box12,
+.box13,
+.box22,
+.box23,
+.warng {
+    text-align: center;
+    font-size: 40px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 5px;
+}
+.sactive,
+.swarng {
+    font-size: 50px;
+    font-style: italic;
+    font-family: cursive;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+}
+.sactive {
+    background: red;
+}
+.swarng {
+    background: green;
+}
+.box1-container,
+.box2-container {
+    background: rgb(85, 85, 85);
+    margin: 10px;
+    display: flex;
+    border-radius: 10px;
+}

@@ -1,0 +1,46 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*navbar image*/
+.rounded-circle {
+    width: 70px;
+    height: 70px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+/*navbar link*/
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+.navbar {
+    box-shadow: 5px 2px rgb(113, 113, 242);
+}
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+/*home*/
+.bg-image {
+    background-size: cover;
+}
+.mask {
+    margin-top: 150px;
+}
+/*about me*/
+.text-muted {
+    text-indent: 100px;
+}
+#oimage iframe {
+    height: 250px;
+}
+.fw-bold {
+    color: gray;
+}
+.mainvedio {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}

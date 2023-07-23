@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: cursive;
+}
+.btn1 {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.danger {
+    border-color: #f44336;
+    color: red;
+}
+
+.danger:hover {
+    background: #f44336;
+    color: white;
+}
+.s1 {
+    text-align: center;
+    align-items: center;
+    letter-spacing: 5px;
+}
+.underline {
+    width: 150px;
+    background-color: #f44336;
+    height: 3px;
+    border-radius: 10px;
+    margin: auto;
+}
+button {
+    letter-spacing: 5px;
+}
+img {
+    border: 5px solid #f44336;
+    border-radius: 10px;
+}
+.line {
+    border: 0.5px dotted black;
+}
+.option_control {
+    border: 2px solid #f44336 !important;
+
+    width: 150px;
+    padding: 10px 28px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .section-center {
+        margin: 0 10px;
+    }
+    .form_control {
+        width: 100% !important;
+    }
+    .formbtn {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+/* @media only screen and (min-width: 600px) {
+    .section-center {
+        margin: 0 40px;
+    }
+} */
+@media only screen and (max-width: 995px) {
+    .btncontrol {
+        display: none;
+    }
+    .form_control {
+        width: 100% !important;
+    }
+}
+@media only screen and (min-width: 995px) {
+    .option_container {
+        display: none;
+    }
+}
+input[type="text"],
+#image,
+#price,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: #f44336;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    border: 1px solid #f44336;
+}
+
+input[type="submit"]:hover {
+    background-color: #f44336;
+    color: white;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form_control {
+    width: 50%;
+}

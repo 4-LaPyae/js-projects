@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+}
+.main {
+    width: 40%;
+    height: auto;
+}
+.text-center {
+    font-family: cursive;
+    font-size: 2rem;
+}
+.bi-trash {
+    cursor: pointer;
+}
+
+.danger {
+    color: white;
+    background: red;
+}
+.success {
+    color: white;
+    background: green;
+}
+.showalert {
+    text-align: center;
+    border-radius: 10px;
+}
+input {
+    border: none;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    padding: 10px 28px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.info:hover {
+    background-color: white;
+    color: blue;
+}
+.edit-btn,
+.delete-btn {
+    border: 0;
+}
+.filtered {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .main {
+        width: 50%;
+    }
+}
